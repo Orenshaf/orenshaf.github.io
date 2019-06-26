@@ -9,3 +9,33 @@
 @import "./navbar.scss";
 @import "./masthead.scss";
 @import "./portfolio.scss";
+
+.container2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.redux {
+  width: 64px;
+  height: 64px;
+}
+
+.portfolio {
+  margin: 0 !important;
+}
+
+.page-section {
+  padding: 2rem 0;
+}
